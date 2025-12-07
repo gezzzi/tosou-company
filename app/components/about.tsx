@@ -55,8 +55,9 @@ export function AboutSection() {
                 </p>
               </div>
               <div className="mt-10 pt-8 border-t border-zinc-100">
-                <div className="font-[var(--font-heading)] text-3xl italic text-zinc-400">望月 政康</div>
+                <div className="font-[var(--font-heading)] text-3xl italic text-zinc-400">Masayasu Mochizuki</div>
                 <p className="mt-2 text-xs font-sans tracking-widest text-zinc-400">代表 / 1級塗装技能士</p>
+                <p className="mt-1 text-xs font-sans text-zinc-400">望月 政康</p>
               </div>
             </FadeIn>
           </div>
