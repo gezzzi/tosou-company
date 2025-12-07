@@ -21,7 +21,7 @@ export function WorksSection() {
           </FadeIn>
           <FadeIn direction="left" delay={200}>
             <a
-              href="#contact"
+              href="/#contact"
               className="hidden md:flex items-center gap-2 font-sans font-bold text-sm border-b border-[#0f172a] pb-1 hover:text-[#cfa968] hover:border-[#cfa968] transition-colors group"
             >
               詳細を問い合わせる

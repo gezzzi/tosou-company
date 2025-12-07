@@ -15,7 +15,8 @@ export function CompanySection() {
       <div className="grid gap-10 md:grid-cols-2">
         <div className="space-y-3">
           <p className="text-xs font-bold uppercase tracking-[0.3em] text-[#cfa968]">Company</p>
-          <h2 className="font-[var(--font-heading)] text-3xl font-semibold text-[#0f172a] md:text-4xl">会社情報</h2>
+          <h2 className="font-[var(--font-heading)] text-3xl font-semibold text-[#0f172a] md:text-4xl">会社案内</h2>
+          <p className="text-sm text-[#0f172a]/70">富士市で創業し、自社職人による施工と地域密着のサポートを続けています。住宅も法人案件もお気軽にご相談ください。</p>
           <div className="mt-4 space-y-3 text-sm text-[#0f172a]/80">
             <div className="flex items-start gap-3">
               <ShieldCheck className="mt-1 text-[#cfa968]" size={18} />

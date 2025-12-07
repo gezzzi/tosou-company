@@ -27,6 +27,20 @@ export type FlowStep = {
   text: string;
 };
 
+export type PricingPlan = {
+  name: string;
+  price: string;
+  detail: string;
+  features: string[];
+  tag?: string;
+};
+
+export type AreaItem = {
+  title: string;
+  desc: string;
+  coverage: string[];
+};
+
 export const works: WorkItem[] = [
   {
     id: 1,
@@ -92,4 +106,57 @@ export const flowSteps: FlowStep[] = [
   { step: "03", title: "ご契約・色決め", text: "カラーシミュレーションで完成イメージを共有します。" },
   { step: "04", title: "ご近隣挨拶・着工", text: "養生・足場・近隣挨拶を徹底し、安全に着工します。" },
   { step: "05", title: "完了検査・保証", text: "お引き渡し後に保証書を発行。お手入れも丁寧にご説明。" },
+];
+
+export const pricingPlans: PricingPlan[] = [
+  {
+    name: "外壁塗装 スタンダード",
+    price: "総額 62〜78万円 / 30坪目安",
+    detail: "ラジカル制御シリコン塗料で、美観とコストのバランスを重視したプラン。",
+    features: [
+      "高圧洗浄 + 下塗り2回 + 上塗り2回",
+      "付帯部・シーリング補修込み",
+      "5〜7年の色艶をキープ",
+    ],
+  },
+  {
+    name: "プレミアム長寿命",
+    price: "総額 82〜110万円 / 30坪目安",
+    detail: "無機・フッ素グレードで、紫外線に強く最長10年保証を付帯。",
+    features: [
+      "無機/フッ素上塗りで高耐候",
+      "ドローン含む詳細診断レポート",
+      "10年保証 + 年1回点検",
+    ],
+    tag: "人気",
+  },
+  {
+    name: "屋根 + 外壁セット",
+    price: "総額 118〜145万円 / 30坪目安",
+    detail: "屋根遮熱塗装と外壁を同時施工。足場を1回で組むからお得。",
+    features: [
+      "屋根遮熱フッ素 + 外壁ラジカル",
+      "雨樋・鉄部など付帯も一括",
+      "カラーシミュレーション付き",
+    ],
+    tag: "おすすめ",
+  },
+];
+
+export const areaItems: AreaItem[] = [
+  {
+    title: "富士・富士宮・沼津",
+    desc: "海風と火山灰の環境を考慮し、塩害・汚れに強い塗料を選定。",
+    coverage: ["富士市", "富士宮市", "沼津市", "三島市"],
+  },
+  {
+    title: "静岡市・清水区",
+    desc: "潮風エリアの屋根・外壁に遮熱・防錆仕様で長寿命化を提案。",
+    coverage: ["静岡市", "清水区", "焼津市"],
+  },
+  {
+    title: "御殿場・長泉・裾野",
+    desc: "寒暖差が大きい地域は下地処理を丁寧に、ひび割れ対策を強化。",
+    coverage: ["御殿場市", "裾野市", "長泉町", "清水町"],
+  },
 ];

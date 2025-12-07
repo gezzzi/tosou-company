@@ -5,8 +5,21 @@ import { FadeIn } from "./fade-in";
 
 export function FeaturesSection() {
   return (
-    <section className="py-24 bg-zinc-50 border-y border-zinc-100">
+    <section id="strength" className="py-24 bg-zinc-50 border-y border-zinc-100">
       <div className="max-w-7xl mx-auto px-6">
+        <div className="flex flex-col md:flex-row items-center justify-between mb-14 gap-6">
+          <div>
+            <span className="text-[#cfa968] font-sans tracking-widest text-xs font-bold">藤丸世塗装の強み</span>
+            <h2 className="text-4xl md:text-5xl font-bold mt-4 font-[var(--font-heading)] text-[#0f172a]">
+              下地づくりに一切妥協しない、
+              <br className="hidden md:block" />
+              職人直営の品質管理。
+            </h2>
+          </div>
+          <p className="text-sm md:text-base text-zinc-600 max-w-xl font-sans leading-relaxed">
+            診断・提案・施工・アフターを自社職人が通しで担当。洗浄・補修・養生まで手を抜かず、静岡の気候に合う塗料で10年後も美しい外観を守ります。
+          </p>
+        </div>
         <div className="grid md:grid-cols-3 gap-8 md:gap-12">
           {features.map((feature, idx) => (
             <FadeIn key={feature.title} delay={idx * 150} direction="up" className="h-full">

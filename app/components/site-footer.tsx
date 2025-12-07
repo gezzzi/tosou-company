@@ -20,23 +20,28 @@ export function SiteFooter() {
           <h4 className="text-white font-bold mb-4 uppercase tracking-wider">Services</h4>
           <ul className="space-y-2 text-xs">
             <li>
-              <a href="#service" className="hover:text-white transition-colors">
+              <a href="/services" className="hover:text-white transition-colors">
                 外壁塗装
               </a>
             </li>
             <li>
-              <a href="#service" className="hover:text-white transition-colors">
+              <a href="/services" className="hover:text-white transition-colors">
                 屋根塗装
               </a>
             </li>
             <li>
-              <a href="#service" className="hover:text-white transition-colors">
+              <a href="/services" className="hover:text-white transition-colors">
                 防水工事
               </a>
             </li>
             <li>
-              <a href="#service" className="hover:text-white transition-colors">
+              <a href="/services" className="hover:text-white transition-colors">
                 付帯部塗装・リフォーム
+              </a>
+            </li>
+            <li>
+              <a href="/pricing" className="hover:text-white transition-colors">
+                価格表
               </a>
             </li>
           </ul>
@@ -45,23 +50,23 @@ export function SiteFooter() {
           <h4 className="text-white font-bold mb-4 uppercase tracking-wider">Company</h4>
           <ul className="space-y-2 text-xs">
             <li>
-              <a href="#about" className="hover:text-white transition-colors">
+              <a href="/company" className="hover:text-white transition-colors">
                 私たちについて
               </a>
             </li>
             <li>
-              <a href="#works" className="hover:text-white transition-colors">
+              <a href="/works" className="hover:text-white transition-colors">
                 施工事例
               </a>
             </li>
             <li>
-              <a href="#company" className="hover:text-white transition-colors">
+              <a href="/company" className="hover:text-white transition-colors">
                 会社概要
               </a>
             </li>
             <li>
-              <a href="#contact" className="hover:text-white transition-colors">
-                お問い合わせ
+              <a href="/#contact" className="hover:text-white transition-colors">
+                お問い合わせ・資料請求
               </a>
             </li>
           </ul>

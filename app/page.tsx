@@ -5,6 +5,7 @@ import { ContactSection } from "./components/contact";
 import { CompanySection } from "./components/company";
 import { AboutSection } from "./components/about";
 import { FeaturesSection } from "./components/features";
+import { AreaSection } from "./components/area";
 import { FlowSection } from "./components/flow";
 import { Hero } from "./components/hero";
 import { Navbar } from "./components/navbar";
@@ -29,6 +30,7 @@ export default function Page() {
         <FeaturesSection />
         <ServicesSection />
         <WorksSection />
+        <AreaSection />
         <FlowSection />
         <CompanySection />
         <ContactSection />

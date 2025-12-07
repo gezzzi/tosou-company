@@ -5,13 +5,16 @@ import { FadeIn } from "./fade-in";
 
 export function ServicesSection() {
   return (
-    <section id="service" className="py-32 bg-white relative">
+    <section id="services" className="py-32 bg-white relative">
       <div className="absolute top-0 right-0 w-1/3 h-full bg-zinc-50 -z-0 hidden lg:block" />
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <FadeIn direction="up">
           <div className="text-center mb-20">
-            <span className="text-[#cfa968] font-sans tracking-widest text-xs font-bold">OUR SERVICES</span>
-            <h2 className="text-4xl font-bold mt-4 font-[var(--font-heading)] text-[#0f172a]">提供する価値</h2>
+            <span className="text-[#cfa968] font-sans tracking-widest text-xs font-bold">塗装サービス</span>
+            <h2 className="text-4xl font-bold mt-4 font-[var(--font-heading)] text-[#0f172a]">建物に合わせた最適提案</h2>
+            <p className="text-sm text-zinc-500 mt-4 font-sans max-w-2xl mx-auto">
+              外壁・屋根・防水・付帯部までワンストップ。劣化の進行度とご予算に合わせて最適な塗料グレードを選定します。
+            </p>
           </div>
         </FadeIn>
 
